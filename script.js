@@ -1,3 +1,4 @@
+
 const playButton = document.getElementById("play");
 const userChoice = document.getElementById("userChoice");
 const displayUserChoice = document.getElementById("displayUserChoice");
