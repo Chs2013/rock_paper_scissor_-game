@@ -1,3 +1,20 @@
+*{
+    margin-top:3% ;
+    margin-left:3%;
+    border-style: none;
+}
+body{
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+color:rgb(100, 100, 141) ;
+    background: rgb(37, 24, 84);
+}
+
+#play{
+color: rgb(107, 107, 231);
+}
+
+
 #b1{
     width:100px;
     height:80px;
@@ -12,4 +29,17 @@
     width:100px;
     height:80px;
    background:rgb(187, 116, 187)
-}
+
+               }
+               #play{
+                background: rgb(37, 24, 84);
+                font-size: 50px;
+               }
+               #playAgain{
+                background: rgb(37, 24, 84);;
+                font-size: 50px;
+               }
+            
+               #b1,#b2,#b3,#play,#playAgain{
+                font-family: "Audiowide", sans-serif;
+               }
