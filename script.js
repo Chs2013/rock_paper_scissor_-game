@@ -29,12 +29,17 @@ choiceButtons.forEach((button) => {
       }
     });
 
+    // Display the chosen button
+    displayUserChoice.innerHTML = "";
+    const userChoiceButton = document.createElement("button");
+    userChoiceButton.textContent = userPick;
+    displayUserChoice.appendChild(userChoiceButton);
+
     // Generate the computer's choice randomly
     const choices = ["rock", "paper", "scissors"];
     const computerPick = choices[Math.floor(Math.random() * choices.length)];
 
     // Display both choices
-    displayUserChoice.textContent = userPick;
     displayComputerChoice.textContent = computerPick;
 
     // Determine the winner
@@ -52,7 +57,7 @@ playAgainButton.addEventListener("click", () => {
   // Reset the game
   playButton.style.display = "block";
   choicesContainer.style.display = "none";
-  displayUserChoice.textContent = "";
+  displayUserChoice.innerHTML = "";
   displayComputerChoice.textContent = "";
   playAgainButton.style.display = "none";
   result.textContent = "";
@@ -74,3 +79,4 @@ function determineWinner(choice1, choice2) {
   return "Computer wins!";
  }
 }
+
