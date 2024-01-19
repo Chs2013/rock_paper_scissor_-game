@@ -1,45 +1,75 @@
 *{
-    margin-top:3% ;
-    margin-left:3%;
+    margin: 0;
+}
+h1{ font-size:80px;
+    text-align: center;
+    color: rgb(179, 157, 157);
+
+}
+a{margin-top: 50%;
+    margin-left: 25%;
+    text-decoration: none;
+    align-items: center;
+    font-size: 60px;
+    color: rgb(217, 224, 224);
+
+
+}
+.s{
+    width:100vw;
+    height:100vh;
+   
+}
+body {
+
+    font-family: "Audiowide", sans-serif;
+    background: rgb(37, 24, 84);
+    color:rgb(100, 100, 141) ;
+    padding: 5%;
+}
+
+#comp-choice {
+    width: 340px;
+    height: 340px;
+    background-color:rgb(37, 24, 84); 
     border-style: none;
 }
-body{
-    font-family: "Audiowide", sans-serif;
+
+
+#your-choice {
+    width: 340px;
+    height: 340px;
+   background-color:rgb(37, 24, 84);
+
+    border-style: none;
+}
+
+#choices {
+    width: 240px;
+    height: 80px;
+    background-color:rgb(37, 24, 84);
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+#choices img {
+    width: 80px;
+    height: 80px;
+}
+#st{
+    display:inline-flex;
+}
+.d1{
+    margin-left: 9%;
     text-align: center;
-color:rgb(100, 100, 141) ;
-    background: rgb(37, 24, 84);
 }
-
-#play{
-color: rgb(107, 107, 231);
+.d2{
+    text-align: center;
+margin-top: 5px;
+    margin-left: 80%;
 }
-
-
-#b1{
-    width:100px;
-    height:80px;
-   background:rgb(187, 116, 187)
+#res{
+    text-align: center;
+    font-size: 50px;
 }
-#b2{
-    width:100px;
-    height:80px;
-   background:rgb(203, 176, 203)
-}
-#b3{
-    width:100px;
-    height:80px;
-   background:rgb(187, 116, 187)
-
-               }
-               #play{
-                background: rgb(37, 24, 84);
-                font-size: 50px;
-               }
-               #playAgain{
-                background: rgb(37, 24, 84);;
-                font-size: 50px;
-               }
-            
-               #b1,#b2,#b3,#play,#playAgain{
-                font-family: "Audiowide", sans-serif;
-               }
