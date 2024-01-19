@@ -79,4 +79,3 @@ function determineWinner(choice1, choice2) {
   return "Computer wins!";
  }
 }
-
