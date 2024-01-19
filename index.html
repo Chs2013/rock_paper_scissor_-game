@@ -2,20 +2,25 @@
 <head>
  <title>Rock Paper Scissors</title>
  <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
 </head>
 <body>
+
+    <h1>ROCK PAPER SCISSOR</h1>
+    <h2>Let's get started</h2>
  <button id="play">Play</button>
  <div class="choices">
-  <button class="choice" data-value="rock">Rock</button>
-  <button class="choice" data-value="paper">Paper</button>
-  <button class="choice" data-value="scissors">Scissors</button>
+  <button class="choice" id="b1"data-value="rock">Rock</button>
+  <button class="choice" id="b2" data-value="paper">Paper</button>
+  <button class="choice" id="b3" data-value="scissors">Scissors</button>
  </div>
  <p>Your choice: <span id="displayUserChoice"></span></p>
  <p>Computer's choice: <span id="displayComputerChoice"></span></p>
  <p id="result"></p>
- <button id="playAgain" style="display: none;">Play Again</button>
+ <button id="playAgain">Play Again</button>
  <script src="script.js">
 
  </script>
  </body>
  </html>
+
